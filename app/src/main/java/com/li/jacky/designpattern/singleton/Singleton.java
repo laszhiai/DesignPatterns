@@ -9,6 +9,9 @@ import java.io.Serializable;
  * 饿汉：耗费资源
  * 懒汉：getInstance时会造成同步开销
  * DCL:java内存模型问题，存在创建失败的可能性
+ * 单例持有context，容易造成内存泄漏（强引用的关系，无法回收）
+ * activity级别的使用context, application级别的使用applicationContext
+ * <a herf="http://blog.csdn.net/ecjtuhq/article/details/53999582"></a>
  */
 
 public class Singleton implements Serializable{
