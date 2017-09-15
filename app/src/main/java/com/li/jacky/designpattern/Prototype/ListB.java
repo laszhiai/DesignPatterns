@@ -1,12 +1,6 @@
 package com.li.jacky.designpattern.Prototype;
 
-/**
- * Created by Jacky on 2017/9/4.
- */
-
-
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by Jacky on 2017/9/4.

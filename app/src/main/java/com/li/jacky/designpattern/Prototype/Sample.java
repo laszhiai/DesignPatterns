@@ -25,7 +25,7 @@ public class Sample {
         Log.i(TAG, "Sample:  B  " + listB.toString());
 
         ListB cloneB = listB.clone();
-        cloneB.add("a!!!");
+        cloneB.add("b!!!");
         Log.i(TAG, "Sample:  B  " + cloneB.toString());
         Log.i(TAG, "Sample:  B  " + listB.toString());
     }

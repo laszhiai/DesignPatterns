@@ -20,7 +20,7 @@ public class Singleton implements Serializable{
     private Singleton() {
     }
 
-    private Singleton getInstance() {
+    public Singleton getInstance() {
         return SingletonHolder.instance;
     }
 
